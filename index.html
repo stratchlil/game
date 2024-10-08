@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра: Найди Заглавные Буквы</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Игра: Найди Заглавные Буквы</h1>
+        <p>Бот выводит 8 случайных слов. Ваша задача — выписать из каждого слова одну заглавную букву по порядку.</p>
+        <div id="words-container"></div>
+        <input type="text" id="user-input" placeholder="Введите заглавные буквы">
+        <button id="submit-button">Отправить</button>
+        <div id="result"></div>
+    </div>
+
+    <!-- Подключение Telegram Web Apps JS SDK -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
